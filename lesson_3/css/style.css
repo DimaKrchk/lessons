@@ -1,0 +1,48 @@
+@import url("reset.css");
+
+* {
+   color: rgb(77, 60, 19);
+}
+h1 {
+    color: blue;
+ }
+ .general_concepts {
+    color: rgb(177, 101, 116);
+ }
+ .link1,
+ .link2,
+ .link3,
+ .link4 {
+   color: gold;    
+ }
+ #need {
+    color: deeppink;
+ }
+ h3.name {
+    color: aqua;
+ }
+ .about_concepts .color {
+    color: brown;
+ }
+ .general.link {
+    color: blue;
+ }
+ .about_technics * {
+    color: rgb(163, 163, 255);
+ }
+ .about_recommendation li {
+    color: blueviolet;
+ }
+ .about_cue > p {
+    color: chartreuse;
+ }
+.concepts_text ~ p {
+   color: darksalmon;
+}
+.concepts_text + p {
+   color: gold;
+}
+[class*="__container"] {
+	 color: rgb(105, 174, 105); 
+}    
+ 

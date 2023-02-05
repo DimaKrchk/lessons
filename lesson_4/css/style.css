@@ -1,0 +1,76 @@
+/* Reset */
+@import url("reset.css");
+/* Reset */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&display=swap');
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('../fonts/Philosopher-Italic.woff2') format('woff2'),
+        url('../fonts/Philosopher-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Philosopher';
+    src: url('../fonts/Philosopher-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Philosopher-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+/* Fonts */
+    
+}
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.main {
+    line-height: 2;
+}
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: rgba(65, 5, 5, 0.923);
+    text-align: center;
+    text-shadow: -2px -3px 4px rgb(30, 160, 163);
+    line-height: 2;
+}
+h1 {
+    font-weight: 700;
+}
+[class*="__container"] {
+    line-height: 1.2;
+    text-indent: 20px;
+}
+.town {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.townhouse {
+    font-style: italic;
+}
+.history > p {
+    font-family: 'Philosopher', cursivf;
+    font-size: 18px;
+}
+.about-history + p {
+    font-weight: 700;
+}
+.townhome {
+    letter-spacing: 3px;
+    color: blueviolet;
+}
+.about-ukraine {
+    white-space: nowrap;
+}
+.link {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    word-spacing: 10px;
+    line-height: 5;
+}
